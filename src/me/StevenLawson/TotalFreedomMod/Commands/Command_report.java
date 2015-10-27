@@ -33,14 +33,14 @@ public class Command_report extends TFM_Command
         {
             if (player.equals(sender_p))
             {
-                playerMsg(ChatColor.RED + "Please, don't try to report yourself.");
+                playerMsg(ChatColor.RED + "You cannot report yourself.");
                 return true;
             }
         }
 
         if (TFM_AdminList.isSuperAdmin(player))
         {
-            playerMsg(ChatColor.RED + "You can not report an admin.");
+            playerMsg(ChatColor.RED + "Reporting an admin is prohibited.");
             return true;
         }
 

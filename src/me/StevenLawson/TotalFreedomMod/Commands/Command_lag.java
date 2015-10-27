@@ -39,7 +39,7 @@ public class Command_lag extends TFM_Command
             }
             else
             {
-                TFM_Util.adminAction(sender.getName(), "Unfreezing all players", false);
+                TFM_Util.adminAction(sender.getName(), "Disabling Lag-Mode", false);
                 setAllFrozen(false);
                 playerMsg("You are now free to move.");
             }
@@ -49,7 +49,7 @@ public class Command_lag extends TFM_Command
             if (args[0].toLowerCase().equals("off"))
             {
                 setAllFrozen(false);
-                TFM_Util.adminAction(sender.getName(), "Unfreezing all players", false);
+                TFM_Util.adminAction(sender.getName(), "Disabling Lag-Mode", false);
             }
             else
             {

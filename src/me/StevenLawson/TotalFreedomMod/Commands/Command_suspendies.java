@@ -13,7 +13,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
 import org.bukkit.util.Vector;
 
-@CommandPermissions(level = AdminLevel.SENIOR, source = SourceType.ONLY_CONSOLE, blockHostConsole = true)
+@CommandPermissions(level = AdminLevel.EPSONCR, source = SourceType.BOTH)
 @CommandParameters(description = "For the bad Superadmins", usage = "/<command> <playername>")
 public class Command_suspendies extends TFM_Command
 {

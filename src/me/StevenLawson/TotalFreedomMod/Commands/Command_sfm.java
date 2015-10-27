@@ -50,10 +50,10 @@ public class Command_sfm extends TFM_Command
             return true;
         }
 
-        TFM_Util.playerMsg(sender_p, " §4§lStormFreedomMod:", ChatColor.GOLD);
-        TFM_Util.playerMsg(sender_p, "made by xEpson", ChatColor.GREEN);
+        TFM_Util.playerMsg(sender_p, "§c§lStormFreedomMod:", ChatColor.GOLD);
+        TFM_Util.playerMsg(sender_p, "Made by: xEpson", ChatColor.GREEN);
         TFM_Util.playerMsg(sender_p, "§5Based off the §9TotalFreedomMod §5but with more §6features §5and §eflexibility.", ChatColor.GOLD);
-        TFM_Util.playerMsg(sender_p, "§9This is StormFreedomMod ver 3" + plugin.getDescription().getVersion(), ChatColor.GOLD);
+        TFM_Util.playerMsg(sender_p, "§9This is StormFreedomMod ver " + plugin.getDescription().getVersion(), ChatColor.GOLD);
 
         return true;
     }
